@@ -262,9 +262,14 @@
   //#define  DEFAULT_Kd 440
 
   // Marlin Auto Tune Results - 5/27/17 (S230)
-  #define  DEFAULT_Kp 22.66
-  #define  DEFAULT_Ki 1.65
-  #define  DEFAULT_Kd 77.96
+  //#define  DEFAULT_Kp 22.66
+  //#define  DEFAULT_Ki 1.65
+  //#define  DEFAULT_Kd 77.96
+
+  // Marlin Auto Tune Results - 12/9/17 (M303 S210 C7)
+  #define  DEFAULT_Kp 22.05
+  #define  DEFAULT_Ki 1.85
+  #define  DEFAULT_Kd 65.57
 
 #endif // PIDTEMP
 
